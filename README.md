@@ -9,5 +9,9 @@ CalculatorOS is a Calculator App.
 ## Languages
 - Swift
 
+## Frameworks
+1. SwiftUI
+    - SwiftUI was used to build and design the application.
+
 ## Architecture Pattern
 - MVVM
