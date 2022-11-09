@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		F68CA350290B450A00696F9C /* CalculatorOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA34F290B450A00696F9C /* CalculatorOSApp.swift */; };
-		F68CA352290B450A00696F9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA351290B450A00696F9C /* ContentView.swift */; };
 		F68CA354290B450D00696F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68CA353290B450D00696F9C /* Assets.xcassets */; };
 		F68CA357290B450D00696F9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68CA356290B450D00696F9C /* Preview Assets.xcassets */; };
+		F68CA360290B459A00696F9C /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA35F290B459A00696F9C /* CalculatorViewModel.swift */; };
+		F68CA362290B45A700696F9C /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA361290B45A700696F9C /* CalculatorView.swift */; };
+		F68CA368290ECF3100696F9C /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68CA367290ECF3100696F9C /* CalculatorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F68CA34C290B450A00696F9C /* CalculatorOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68CA34F290B450A00696F9C /* CalculatorOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorOSApp.swift; sourceTree = "<group>"; };
-		F68CA351290B450A00696F9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F68CA353290B450D00696F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68CA356290B450D00696F9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F68CA35F290B459A00696F9C /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		F68CA361290B45A700696F9C /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		F68CA367290ECF3100696F9C /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				F68CA34F290B450A00696F9C /* CalculatorOSApp.swift */,
-				F68CA351290B450A00696F9C /* ContentView.swift */,
+				F68CA35D290B458400696F9C /* Views */,
+				F68CA366290ECF2000696F9C /* Model */,
 				F68CA353290B450D00696F9C /* Assets.xcassets */,
 				F68CA355290B450D00696F9C /* Preview Content */,
 			);
@@ -65,6 +70,31 @@
 				F68CA356290B450D00696F9C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F68CA35D290B458400696F9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F68CA35E290B458A00696F9C /* Calculator */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F68CA35E290B458A00696F9C /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F68CA35F290B459A00696F9C /* CalculatorViewModel.swift */,
+				F68CA361290B45A700696F9C /* CalculatorView.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		F68CA366290ECF2000696F9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F68CA367290ECF3100696F9C /* CalculatorButton.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68CA352290B450A00696F9C /* ContentView.swift in Sources */,
+				F68CA360290B459A00696F9C /* CalculatorViewModel.swift in Sources */,
+				F68CA362290B45A700696F9C /* CalculatorView.swift in Sources */,
 				F68CA350290B450A00696F9C /* CalculatorOSApp.swift in Sources */,
+				F68CA368290ECF3100696F9C /* CalculatorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
